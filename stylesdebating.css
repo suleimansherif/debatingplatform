@@ -1,0 +1,305 @@
+<style>
+/* General Styles */
+body {
+margin: 5px;
+padding: 5px;
+font-family: 'Arial', sans-serif;
+background: rgb(17, 17, 51);
+color:beige;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding-top: 80px;
+}
+
+/* Privacy Policy Modal Styles */
+#privacy-policy-modal {
+color: beige;
+font-family: 'Arial', sans-serif;
+}
+
+#privacy-policy-modal h2 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+#privacy-policy-modal p {
+font-size: 14px;
+line-height: 1.6;
+margin-bottom: 20px;
+}
+
+#privacy-policy-modal button {
+background: rgb(21, 72, 138);
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+margin-top: 20px;
+}
+
+#privacy-policy-modal button:hover {
+background: #171777;
+}
+
+
+
+
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  color: hsla(184, 98%, 46%, 0.91);
+  margin: 40px;
+}
+
+.header .search-bar {
+  flex-grow: 1;
+  margin:  20px;
+  width: 87%;
+  max-height:50px
+  color: rgb(33, 12, 92);
+}
+
+.header .search-bar input {
+  width: 90%;
+  height: 40px;
+  border: 1px solid #444;
+  border-radius: 30px;
+  color: rgba(0, 0, 0, 0.61);
+  margin:  30px;
+}
+
+.profile-icon{
+  cursor: pointer
+}
+
+/*
+.profile-icon{
+max-width: 20px;
+max-height: 30px;
+background-repeat: no-repeat;
+background-position:top right;
+border: none;
+}
+*/
+.logo{
+  width: 20px;
+  height: 30px;
+  background-image:url(mylogo/suleandjabar\ \(1\).jpg) ;
+  background-repeat: no-repeat;
+  background-position: top left;
+  border: none;
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 1rem;
+  padding-left: left;
+  border: none;
+}
+
+
+.dropdown-menu {
+  display: none;
+  position:absolute;
+  right: 20px;
+  top: 70px;
+  background-color: rgba(75, 7, 202, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color:  rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-menu ul li {
+  padding: 10px;
+}
+
+.dropdown-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  background-color:  rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-menu ul li a:hover {
+  text-decoration: underline;
+  background-color:  rgba(13, 16, 202, 0.87);
+}
+
+/* Login Container */
+.login-container {
+  padding: 70%;
+  width: 480px;
+  height: 550px;
+  text-align: center;
+  background:rgb(16, 16, 73);
+  padding: 2rem;
+  border-radius: 70px;
+  text-align: center;
+  margin: 5px auto;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 75);
+}
+.h1{
+font-weight: normal;
+font-size: 24px;
+text-shadow: 0px 0px 2px rgb(0, 0, 0,0.5);
+}
+
+.input-group{
+background:rgb(49, 21, 121);
+height:40px;
+line-height: 40px;
+border-radius:20px;
+padding:0px 20px;
+border:none;
+margin-bottom: 25px;
+color:#ebe7e7;
+
+}
+button{
+background: rgb(21, 72, 138);
+height: 70%;
+border-radius:  20px;
+border: none;
+margin:20px ;
+box-shadow: 0px 0px 5px rgb(0,0,0,0.3);
+color:white;
+cursor: pointer;
+transition: 0.4sec ease;
+width:70% ;
+padding: 0.75rem;
+font-size: 1rem;
+
+
+}
+button:hover{
+background: #171777;
+}
+
+
+
+
+/* Main Content */
+.main-content {
+  display: none;
+  padding: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.debate-section, .video-section {
+  width: 48%;
+}
+
+.debate-list {
+  list-style: none;
+  padding: 0;
+}
+
+.debate-list li {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.debate-list li h3 {
+  margin: 0;
+}
+
+.debate-list li p {
+  margin: 5px 0;
+}
+
+
+
+.video-section {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+
+video {
+width: 100%;
+height: auto;
+}
+
+.comment-section {
+margin-top: 20px;
+}
+
+#comments {
+margin-bottom: 10px;
+}
+
+#comments div {
+padding: 10px;
+border-bottom: 1px solid #ccc;
+}
+
+textarea {
+width: 100%;
+height: 60px;
+margin-bottom: 10px;
+}
+
+.social-buttons {
+margin-top: 20px;
+}
+
+button {
+padding: 10px 20px;
+margin-right: 10px;
+cursor: pointer;
+}
+
+
+
+
+
+.video-card{
+  padding: 20px;
+}
+
+.video-card {
+  background: rgb(32, 2, 66);
+  margin-bottom: 2px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container, .main-content {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .debate-section, .video-section {
+    width: 100%;
+  }
+}
+</style>
