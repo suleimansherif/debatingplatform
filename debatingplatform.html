@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Nexverse Universe - Your gateway to the Nexverse Universal Dashboard.">
+  <meta name="author" content="Nexverse Universe">
+  <meta property="og:title" content="Nexverse Universe">
+  <meta property="og:description" content="Explore the Nexverse Universal Dashboard at nexverseuniverse.com">
+  <meta property="og:url" content="https://www.nexverseuniverse.com/google-site-verification: google816677bff86ef42e.html">
+  <meta name="keywords" content="Nexverse, Global Debate Platform, Nexverse Universe, Login, Debate, Video Upload">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.nexverseuniverse.com/google-site-verification: google816677bff86ef42e.html">
+  <title>Global Debate Platform</title>
+<link rel="stylesheet" href="stylesdebating.css">
+</head>
+<body>
+  <!-- Login Form -->
+  <div class="login-container" id="loginContainer">
+    <div class="logo">
+      <img src="mylogo/WhatsApp Image 2(.jpg" alt="nexverse logo">
+    </div>
+    <h1 style="text-indent: 60px">Nexverse Universe</h1>
+    <h2>Login</h2>
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username"style="width: 50%;height: 50%;" required>
+      </div>
+      <div class="input-group">
+        <label for="Email">Email</label>
+        <input type="text" id="Email" name="Email"style="width: 50%;height: 50%;" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"style="width: 50%;height: 50%;" required>
+      </div>
+      <button type="submit">Login</button> 
+      <div>
+  <input type="checkbox" id="checkbox" name="checkbox" required>
+      I have read and understood terms&conditions.?
+      </div>
+    <p style="text-align: center;"><b>or</b></p>
+    <p class="signup-link">Don't have an account? <a href="#"><strong style="color: rgb(214, 106, 18);">Sign up</strong> </a></p>
+  
+  </div>
+
+</form>
+
+
+
+
+  <!-- Main Content (Hidden Initially) -->
+  <div class="main-content" id="mainContent">
+    <header class="header">
+      <div class="search-bar">
+        <input type="text" placeholder="Search Debates&GlobalNews.."style="padding-left:16px">
+      
+      <div class="profile-icon" onclick="toggleDropdown()">
+        <img src="mylogo/newmenu.PNG" alt="Profile" style="width: 50px;height: auto;align-items: top left;" >     </div>
+      <div class="dropdown-menu" id="dropdownMenu">
+        <ul>
+          <input type="text"placeholder="search.....">
+          <li><a div class="Home"onclick="toggleDropdown()">Home</a></li>
+          <li> <a href="https://www.nexverseuniverse.com/profile">Profile</a></li>
+          <li> <a href="https://www.nexverseuniverse.com/Global">Global News</a></li>
+          <li> <a href="https://www.nexverseuniverse.com/Debates">Live Debates</a></li>
+          <li> <a href="https://www.nexverseuniverse.com/NBA">NBA LIVE</a></li>
+          <li> <a href="https://www.nexverseuniverse.com/Trading">Trading</a></li>
+          <li> <a href="https://www.nexverseuniverse.com/Nexverse Universe">Nexverse APP</a></li>
+          <li> <a href="https://www.nexverseuniverse.com/Trending">Trending Topics</a></li>
+          <li> <a href="https://www.nexverseuniverse.com/google.com">suleimansheriff.org</a></li>
+          <li> <a href="https://www.nexverseuniverse.com/Urban Labs">Urban Labs Tech</a></li>
+          <li> <a href="https://www.nexverseuniverse.com/Cricfy.com">Live Matches</a></li>
+          <li> <a href="https://www.nexverseuniverse.com/NFL">NFL</a></li>
+          <li>   <a href="#" onclick="showPrivacyModal()">About Us</a></li>
+          <li><a href="#" id="logoutButton">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+    </header>
+
+    <div class="content-wrapper">
+      <div class="debate-section">
+        <h2> Debates Section</h2>
+        <ul class="debate-list" id="debateList">
+          <img src="mylogo/parliament-317085.jpg" alt="FAQ debates" style="width:600px;height:700px;">
+         
+          <li>
+            <h3>Debate Topic: Climate Change</h3>
+            <p>Participants: John (USA), Maria (Brazil), Ahmed (Egypt)</p>
+            <p>Status: Live</p>
+          </li>
+          <img src="mylogo/debate image.jpg" alt="Upcoming AI Ethics" style="width:600px;height:700px;">
+          <li> 
+            <h3>Debate Topic: AI Ethics</h3>
+            <p>Participants: Emma (UK), Li (China), Carlos (Mexico)</p>
+            <p>Status: Upcoming</p>
+          </li>
+        </ul>
+      </div>
+
+      
+    <div class="video-section">
+        <video controls>
+            <source src="mylogo/Cheza_Doba_TikTok_Dance_Challenge_-_Spoiler_4T3_Ft_YBW_Smith(480p).mp4" type="video/mp4">
+            <source src="mylogo/Drake_-Laugh_Now_Cry_LaterOfficial_Lyric_Video_ft._Lil_Durk(360p).mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="comment-section">
+            <h3>Comments</h3>
+            <div id="comments">
+                <!-- Comments will be dynamically added here -->
+            </div>
+            <textarea id="comment-input" placeholder="Add a comment..."></textarea>
+            <button id="submit-comment">Submit</button>
+        </div>
+
+        <div class="social-buttons">
+            <button id="like-button">Like</button><button id="share-button">Share</button><button id="tweet-button">Tweet</button>
+        </div>
+    </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <footer style="text-align: center; padding: 20px; background-color: #0f1677e5; color: #fff;">
+        <p>&copy; 2025 
+          <a href="#" onclick="showPrivacyModal()" style="color:#e0ca03; text-decoration: none;">nexverseuniverse.com</a>. All rights reserved.</p>
+        
+        <a href="#" onclick="showPrivacyModal()" style="color:rgb(245, 201, 9); text-decoration: none;"><u style="font-weight: bold;">About Us</u></a> 
+        <div>
+        <a href="#" onclick="showPrivacyModal()" style="color:rgb(236, 240, 10); text-decoration: none;"><u style="font-weight: bold;">Contact Us</u></a>
+        </div>
+        <div>
+            <!-- Privacy Policy Link -->
+<a href="privacy-policy.html" target="_blank" style="color: rgb(0, 0, 15); text-decoration: none;">
+    <u style="font-weight: bold;">Privacy Policy</u>
+</a>
+        </div>
+ 
+<!-- Privacy Policy Modal -->
+<div id=" privacy-policy-modal" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgb(16, 16, 73); padding: 20px; border-radius: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); max-width: 600px; width: 90%; max-height: 80vh; overflow-y: auto; z-index: 1000;">
+
+  <button onclick="closePrivacyModal()" style="background: rgb(21, 72, 138); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin-top: 20px;">Close</button>
+</div>
+
+<!-- Overlay for the modal -->
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 999;">
+</div>
+    </footer>
+    <script src="scriptdebating.js"></script>
+</body>
+</html>
